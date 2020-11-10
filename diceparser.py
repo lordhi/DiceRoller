@@ -172,7 +172,7 @@ def p_expr_minus(p):
 
 def p_error(p):
 	'''expr : error'''
-	raise Exception("God dammit, Donal")
+	raise Exception("Error in parsing")
 
 parser = yacc.yacc()
 
